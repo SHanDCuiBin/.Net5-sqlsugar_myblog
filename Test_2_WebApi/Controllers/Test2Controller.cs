@@ -16,6 +16,7 @@ namespace Test_2_WebApi.Controllers
     public class Test2Controller : ControllerBase
     {
         private readonly IWriterInfoService _writerInfoService;
+
         public Test2Controller(IWriterInfoService writerInfoService)
         {
             this._writerInfoService = writerInfoService;
@@ -32,6 +33,16 @@ namespace Test_2_WebApi.Controllers
         {
             var writer = await _writerInfoService.FindAsync(id);
             return ApiResultHelper.Success(writer);
+        }
+
+        /// <summary>
+        /// 获取响应字符串
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public string GetTestString()
+        {
+            return "Hello Test_2";
         }
     }
 }

@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBlogService", "MyBlogServ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBlog.JWT", "MyBlog.JWT\MyBlog.JWT.csproj", "{2ED9A77D-BB3A-4AD3-BCCB-67C5B8C41C63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_1_WebApi", "Test_1_WebApi\Test_1_WebApi.csproj", "{A59F090C-6E94-476A-964E-B1A59DEBB577}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test_1_WebApi", "Test_1_WebApi\Test_1_WebApi.csproj", "{A59F090C-6E94-476A-964E-B1A59DEBB577}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_2_WebApi", "Test_2_WebApi\Test_2_WebApi.csproj", "{2E730A4C-E60E-41F6-862E-F7F4DAD11B14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test_2_WebApi", "Test_2_WebApi\Test_2_WebApi.csproj", "{2E730A4C-E60E-41F6-862E-F7F4DAD11B14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{4B3AC35B-26CA-4A4B-B01D-F938CAFCC46B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +69,10 @@ Global
 		{2E730A4C-E60E-41F6-862E-F7F4DAD11B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E730A4C-E60E-41F6-862E-F7F4DAD11B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E730A4C-E60E-41F6-862E-F7F4DAD11B14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B3AC35B-26CA-4A4B-B01D-F938CAFCC46B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B3AC35B-26CA-4A4B-B01D-F938CAFCC46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B3AC35B-26CA-4A4B-B01D-F938CAFCC46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B3AC35B-26CA-4A4B-B01D-F938CAFCC46B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -33,5 +33,15 @@ namespace Test_1_WebApi.Controllers
             var writer = await _writerInfoService.FindAsync(id);
             return ApiResultHelper.Success(writer);
         }
+
+        /// <summary>
+        /// 获取响应字符串
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public string GetTestString()
+        {
+            return "Hello Test_1";
+        }
     }
 }
